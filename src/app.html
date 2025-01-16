@@ -1,5 +1,5 @@
 <!doctype html>
-<script lang="ts">
+<script lang="ts" context="module">
     import { base } from '$app/paths';
 </script>
 <html lang="en">
@@ -11,7 +11,7 @@
 		%sveltekit.head%
 
 		<!-- duplication with svelte.dev/static/shared.css needed, else styles aren't applied during local dev -->
-		<link rel="stylesheet" href="{base}/share.css"/>
+		<link rel="stylesheet" href=""%sveltekit.assets%/share.css""/>
 
 	</head>
 	<body data-sveltekit-preload-data="hover">
