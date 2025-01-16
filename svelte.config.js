@@ -19,7 +19,7 @@ export default {
 			strict: true
 		}),
 		paths: {
-      base: process.env.NODE_ENV === 'production' ? '/AndreyHP/sakurareader' : '',
+      base: process.env.NODE_ENV === 'production' ? '/sakurareader' : '',
     },
 	}
 };
