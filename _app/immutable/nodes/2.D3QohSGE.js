@@ -1,1 +1,0 @@
-import{a as e,t as o}from"../chunks/disclose-version.ClMNjd7P.js";import"../chunks/legacy.CbH5nSsE.js";import{n as p}from"../chunks/runtime.BHR_h63M.js";var r=o('<h1 class="page-title">Sakura Reader</h1> <body class="main-page"><p>日本語を読みます</p></body>',1);function i(a){var t=r();p(2),e(a,t)}export{i as component};
