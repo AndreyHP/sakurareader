@@ -11,12 +11,8 @@
   onMount(() => {
     const loadEpub = async () => {
       // Load the EPUB file from the static directory
-<<<<<<< HEAD
-      book = Epub('/books/book.epub'); // Use the relative path
-=======
-      book = Epub('./book.epub'); // Use the relative path
->>>>>>> dev
-
+      book = Epub('./books/book.epub'); // Use the relative path
+     
       rendition = book.renderTo(viewer, {
         width: '100%',
         height: '100%',
