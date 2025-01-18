@@ -8,10 +8,10 @@
 	<div id="menu-bar">
     <nav>
 	    <a href="{base}/" class="menu-link" title="home">
-                <img src="{base}./logo.png" id="img-logo" alt="sakura">
+                <img src="./logo.png" id="img-logo" alt="sakura">
         </a>
 	    <a href="{base}/about" class="menu-link" title="settings">
-                <img src="{base}./gear-solid.png" id="settings-logo" alt="settings">
+                <img src="./gear-solid.png" id="settings-logo" alt="settings">
         </a>
     </nav>
     </div>
