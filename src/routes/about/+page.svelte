@@ -1,10 +1,10 @@
-<header>
-	<h1>About</h1>
-</header>
 
-<body class="main-page">
+<h1>About</h1>
+
+
+<main class="main-page">
  <p>A Japanese E-reader</p>
-</body>
+</main>
 
 <footer>
  <p>&copyAndrey Marins</p>

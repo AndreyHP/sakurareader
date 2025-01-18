@@ -1,6 +1,4 @@
-<header>
-	<h1 class="page-title">Sakura Reader</h1>
-</header>
+
 
 <script lang="ts">
   import { onMount } from 'svelte';
@@ -13,7 +11,7 @@
   onMount(() => {
     const loadEpub = async () => {
       // Load the EPUB file from the static directory
-      book = Epub('/book.epub'); // Use the relative path
+      book = Epub('./book.epub'); // Use the relative path
 
       rendition = book.renderTo(viewer, {
         width: '100%',
@@ -26,7 +24,7 @@
       // Wait for the navigation to be fully loaded
       await book.loaded.navigation;
 
-      // Now we can safely access the navigation items
+      // Access the navigation items
       if (book.navigation && book.navigation.toc && book.navigation.toc.length > 0) {
         // Display the first item in the TOC
         rendition.display(book.navigation.toc[0].href);
@@ -55,14 +53,20 @@
 <style>
   #viewer {
     width: 100%;
-    height: 100vh;
-    border: 1px solid #ccc;
+    height: 70vh;
   }
 </style>
 
-<div id="viewer" bind:this={viewer}></div>
-<button id="prev">Previous</button>
-<button id="next">Next</button>
+<main>
+
+    <div id="viewer" bind:this={viewer}></div>
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+
+</main>
+
+
+
 
 
 
