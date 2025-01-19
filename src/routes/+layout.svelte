@@ -10,7 +10,7 @@
 	    <a href="{base}/" class="menu-link" title="home" aria-label="Go back to Home page">
                 <img src="./logo.png" id="img-logo" alt="sakura">
         </a>
-	    <a href="{base}/about" class="menu-link" title="settings" aria-label="Go to settings">
+	    <a href="{base}/settings" class="menu-link" title="settings" aria-label="Go to settings">
                 <img src="./gear-solid.png" id="settings-logo" alt="settings">
         </a>
     </nav>
