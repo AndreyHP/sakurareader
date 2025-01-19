@@ -3,9 +3,11 @@
 /*Definições de estilos*/
 
 :root{
-    --font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --font-family: font-family: "Noto Sans JP", san-serif;
     --cor-link: white;
     --cor-hover: pink;
+    --text-size: 16px;
+    --text-font-family: font-family: "Noto Sans JP", san-serif;
 }
 
 
@@ -29,7 +31,7 @@ h1{
     display: none;
 }
 
-html, body{
+html{
     position: relative;
     height: 100%;
     width: 100%;
@@ -37,8 +39,20 @@ html, body{
     margin: 0;
     font-family: var(--font-family);
     font-size: 16px;
-}
+    }
 
+
+body{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: var(--text-font-family);
+    font-size: 16px; 
+    background-color: #ffffff;
+}
+/*----------------------------------------------------*/
 main{
     flex-grow: 1;
 }
@@ -46,12 +60,6 @@ main{
 p{
 	color: black;
 }
-
-body{
-	background-color: #ffffff;
-}
-
-
 
 footer p{
 	text-align: center;

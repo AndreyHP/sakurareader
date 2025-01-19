@@ -8,6 +8,8 @@
   let rendition: any;
   let viewer: HTMLDivElement;
 
+
+
   onMount(() => {
     const loadEpub = async () => {
       // Load the EPUB file from the static directory
@@ -16,8 +18,10 @@
       rendition = book.renderTo(viewer, {
         width: '100%',
         height: '100%',
+        stylesheet: './css/reader.css',
       });
-
+        
+        
       // Wait for the book to be fully loaded
       await book.loaded;
 
@@ -31,7 +35,7 @@
       } else {
         console.error("No navigation items found in the EPUB.");
       }
-
+      
       // Add event listeners for navigation
       const nextButton = document.getElementById('next');
       const prevButton = document.getElementById('prev');
@@ -48,6 +52,9 @@
     // Call the async function
     loadEpub();
   });
+
+
+ 
 </script>
 
 <style>
