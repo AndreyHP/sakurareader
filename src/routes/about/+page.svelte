@@ -1,11 +1,14 @@
 
-<h1>About</h1>
+<h1>Settings</h1>
 
 
 <main class="main-page">
- <p>A Japanese E-reader</p>
+
+
+
+
 </main>
 
 <footer>
- <p>&copyAndrey Marins</p>
+ <p>&copy Andrey Marins</p>
 </footer>
